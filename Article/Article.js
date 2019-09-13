@@ -86,6 +86,16 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
   },
+  {
+    title: 'How to become a Web Developer',
+    date: 'Jan 8th, 2020',
+    firstParagraph:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sociis natoque penatibus et magnis dis parturient montes nascetur. Ac placerat vestibulum lectus mauris ultrices eros. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Vitae nunc sed velit dignissim sodales ut eu sem integer. Ultrices neque ornare aenean euismod elementum nisi quis. Egestas erat imperdiet sed euismod nisi porta. Iaculis eu non diam phasellus vestibulum lorem sed risus. Id interdum velit laoreet id. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Et malesuada fames ac turpis.',
+    secondParagraph:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sociis natoque penatibus et magnis dis parturient montes nascetur. Ac placerat vestibulum lectus mauris ultrices eros. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Vitae nunc sed velit dignissim sodales ut eu sem integer. Ultrices neque ornare aenean euismod elementum nisi quis. Egestas erat imperdiet sed euismod nisi porta. Iaculis eu non diam phasellus vestibulum lorem sed risus. Id interdum velit laoreet id. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Et malesuada fames ac turpis.',
+    thirdParagraph:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sociis natoque penatibus et magnis dis parturient montes nascetur. Ac placerat vestibulum lectus mauris ultrices eros. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Vitae nunc sed velit dignissim sodales ut eu sem integer. Ultrices neque ornare aenean euismod elementum nisi quis. Egestas erat imperdiet sed euismod nisi porta. Iaculis eu non diam phasellus vestibulum lorem sed risus. Id interdum velit laoreet id. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Et malesuada fames ac turpis.',
+  },
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 

@@ -113,8 +113,7 @@ function Article(article) {
   expandButton.classList.add('expandButton');
 
   expandButton.addEventListener('click', event => {
-    const open = false;
-    if (!open) {
+    if (!articleContainer.classList.contains('article-open')) {
       articleContainer.classList.add('article-open');
     } else {
       articleContainer.classList.remove('article-open');

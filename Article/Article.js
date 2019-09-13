@@ -1,5 +1,5 @@
 /* This is the data we will be using to create our article components */
-/* Look over this data, then proceed to line 91*/
+/* Look over this data, then proceed to line 91 */
 const data = [
   {
     title: 'Lambda School Students: "We\'re the best!"',
@@ -20,7 +20,7 @@ const data = [
     thirdParagraph: `Dagobah hutt jawa leia calamari ventress skywalker yoda. Binks wicket hutt coruscant sidious
         naboo ackbar tatooine. Hutt lars padmé darth. Maul solo darth darth jabba qui-gon chewbacca darth maul. Moff baba wicket
         han. C-3po antilles moff qui-gon ahsoka aayla dooku amidala. Palpatine droid amidala droid k-3po twi'lek padmé wookiee. Leia
-        moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`
+        moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`,
   },
   {
     title: 'Javascript and You, ES6',
@@ -40,7 +40,7 @@ const data = [
     thirdParagraph: `Toad-like smile Flourish and Blotts he knew I’d come back Quidditch World Cup. Fat Lady baubles banana fritters fairy lights 
         Petrificus Totalus. So thirsty, deluminator firs’ years follow me 12 inches of parchment. Head Boy start-of-term banquet Cleansweep Seven 
         roaring lion hat. Unicorn blood crossbow mars is bright tonight, feast Norwegian Ridgeback. Come seek us where our voices sound, we cannot 
-        sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
+        sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`,
   },
   {
     title: 'React vs Angular vs Vue',
@@ -68,7 +68,7 @@ const data = [
 
     thirdParagraph: `Gotta catch 'em all Horsea gym Ninjask Absol Sinnoh Poliwag. Gotta catch 'em all Youngster wants to fight Soda Pop Floatzel 
         Leech Life Seismitoad Ariados. Earthquake Pokemon Glitch City Tail Whip Skitty Ekans Dialga. Ut aliquip ex ea commodo consequat James 
-        Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`
+        Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`,
   },
   {
     title: 'Professional Software Development in 2019',
@@ -84,8 +84,8 @@ const data = [
 
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
-          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
-  }
+          Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
+  },
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
@@ -98,7 +98,30 @@ const data = [
 
     <span class='expandButton'></span>
   </div>
+  */
 
+function Article(data) {
+  const articleContainer = document.createElement('div');
+  articleContainer.classList.add('article');
+  const articleHeading = document.createElement('h2');
+  const articleDate = document.createElement('p');
+  articleDate.classList.add('date');
+  const articleParagraph1 = document.createElement('p');
+  const articleParagraph2 = document.createElement('p');
+  const articleParagraph3 = document.createElement('p');
+  const expandButton = document.createElement('span');
+  expandButton.classList.add('expandButton');
+
+  articleContainer.appendChild(articleHeading);
+  articleContainer.appendChild(articleDate);
+  articleContainer.appendChild(articleParagraph1);
+  articleContainer.appendChild(articleParagraph2);
+  articleContainer.appendChild(articleParagraph3);
+  articleContainer.appendChild(expandButton);
+
+  return articleContainer;
+}
+/*
   Hint: You will need to use createElement more than once here!
 
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
